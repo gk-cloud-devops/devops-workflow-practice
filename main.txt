@@ -1,1 +1,2 @@
 line from main branch
+new line from main branch for rebase demo
