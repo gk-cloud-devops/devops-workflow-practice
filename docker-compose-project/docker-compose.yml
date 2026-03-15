@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  web:
+    image: nginx
+    container_name: gokul-compose-nginx
+    ports:
+      - "8082:80"
+    volumes:
+      - ./:/usr/share/nginx/html
+    restart: always
+
