@@ -1,47 +1,31 @@
-# DevOps Learning Journey 🚀
+# 🚀 DevOps Learning Journey
 
-This repository is my DevOps learning journey.
+## 🔥 Live CI/CD Project (AWS Deployment)
 
-## Topics Covered
+This project demonstrates a complete DevOps workflow from code commit to live deployment.
 
-- Linux Administration
-- System Troubleshooting
-- Networking Basics
-- Cron Jobs
-- Bash Automation
-- Shell Scripting
-- Git & GitHub
-- Docker
-- Docker Compose
-- Docker Networking
-- CI/CD Basics
-- AWS Basics
-- Kubernetes Basics
+### 🔁 CI/CD Pipeline Flow
 
-## Tools Practiced
+GitHub → GitHub Actions → Docker Build → Docker Hub → AWS EC2 → Live Application
+
+### ⚙️ What I implemented
+
+- Automated CI pipeline using GitHub Actions
+- Built Docker image from custom Dockerfile
+- Pushed image to Docker Hub
+- Deployed container on AWS EC2
+- Exposed application using public IP
+
+### 🌍 Live URL
+
+http://13.210.176.144
+
+### 🛠️ Tech Stack
 
 - Linux (Ubuntu)
 - Git & GitHub
-- Bash
-- Systemctl
-- Cron
-- Nginx
-- Monitoring Commands
-- Automation Alert Scripts
 - Docker
-- Docker Port Mapping
-- Docker Image Build
-- Docker container communication
-- Docker Network Creation
-- Docker volume
-- GitHub Actions
-- AWS (IAM, Ec2, S3, VPC)
-- VPC subnetting 
-- Docker Deployment
-- Kubernetes Pod creation 
+- GitHub Actions (CI/CD)
+- AWS EC2
 
-## Goal
-
-Transition into a DevOps Engineer role by building strong fundamentals in Linux, automation, and cloud tools.
-
-Daily learning notes are documented with hands-on commands and explanations.
+---

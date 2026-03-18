@@ -17,15 +17,13 @@ jobs:
         run: ls -la
 
       - name: Build Docker Image
-        run: docker build -t gokul-nginx ./docker-project
+        run: docker build -t gkclouddevops/gokul-nginx ./docker-project
 
           # - name: Run Cointainer 
           # run: docker run -d -p 8080:80 gokul-nginx
 
       - name: Login to Docker Hub
-        run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker_login -u "${{ secrets.DOCKER_USERNAME }}" /
-      --password-stdin
-
+        run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin 
       - name: Push Docker Image
         run: docker push gkclouddevops/gokul-nginx 
 
