@@ -33,10 +33,10 @@ jobs:
          host: ${{ secrets.EC2_HOST }}
          username: ${{ secrets.EC2_USER }}
          key: ${{ secrets.EC2_SSH_KEY }}
-         scripts: |
+         script: |
            sudo docker pull gkclouddevops/gokul-nginx
-          sudo docker stop $(docker ps -q) || true
-         sudo docker rm $(docker ps -aq) || true
+          sudo docker stop $(sudo docker ps -q) || true
+         sudo docker rm $(sudo docker ps -aq) || true
         sudo docker run -d -p 80:80 --name gkcicd gkclouddevops/gokul-nginx:latest 
 
 
