@@ -6,7 +6,11 @@ This project demonstrates a complete DevOps workflow from code commit to live de
 
 ### 🔁 CI/CD Pipeline Flow
 
-GitHub → GitHub Actions → Docker Build → Docker Hub → AWS EC2 → Live Application
+1. Code pushed to GitHub
+2. GitHub Actions triggered
+3. Docker image built
+4. Image pushed to Docker Hub
+5. Auto deployed to AWS EC2
 
 ### ⚙️ What I implemented
 
@@ -16,9 +20,9 @@ GitHub → GitHub Actions → Docker Build → Docker Hub → AWS EC2 → Live A
 - Deployed container on AWS EC2
 - Exposed application using public IP
 
-### 🌍 Live URL
+### 🌍 Live Output
 
-http://13.210.176.144
+Deployed docker containerized application on AWS EC2 and verified successful access via public IP.
 
 ### 🛠️ Tech Stack
 
@@ -27,5 +31,12 @@ http://13.210.176.144
 - Docker
 - GitHub Actions (CI/CD)
 - AWS EC2
+
+### 📌 Key Learnings
+
+- CI/CD pipeline creation
+- Docker image lifecycle
+- GitHub Secrets management
+- Remote deployment via SSH
 
 ---
