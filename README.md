@@ -1,42 +1,89 @@
-# 🚀 DevOps Learning Journey
+# 🚀 DevOps CI/CD Pipeline Project
 
-## 🔥 Live CI/CD Project (AWS Deployment)
-
-This project demonstrates a complete DevOps workflow from code commit to live deployment.
-
-### 🔁 CI/CD Pipeline Flow
-
-1. Code pushed to GitHub
-2. GitHub Actions triggered
-3. Docker image built
-4. Image pushed to Docker Hub
-5. Auto deployed to AWS EC2
-
-### ⚙️ What I implemented
-
-- Automated CI pipeline using GitHub Actions
-- Built Docker image from custom Dockerfile
-- Pushed image to Docker Hub
-- Deployed container on AWS EC2
-- Exposed application using public IP
-
-### 🌍 Live Output
-
-Deployed docker containerized application on AWS EC2 and verified successful access via public IP.
-
-### 🛠️ Tech Stack
-
-- Linux (Ubuntu)
-- Git & GitHub
-- Docker
-- GitHub Actions (CI/CD)
-- AWS EC2
-
-### 📌 Key Learnings
-
-- CI/CD pipeline creation
-- Docker image lifecycle
-- GitHub Secrets management
-- Remote deployment via SSH
+Hi 👋 I'm Gokul Kannan N  
+Aspiring DevOps Engineer passionate about Cloud & Automation ☁️⚙️  
 
 ---
+
+## 🔥 Project Overview
+
+This project demonstrates a complete **CI/CD pipeline** built using GitHub Actions, Docker, and AWS EC2.
+
+The pipeline automatically:
+- Builds a Docker image
+- Pushes it to Docker Hub
+- Deploys it to AWS EC2 instance
+
+---
+
+## ⚙️ Tech Stack
+
+- 🐧 Linux  
+- 🌿 Git & GitHub  
+- ⚙️ GitHub Actions (CI/CD)  
+- 🐳 Docker  
+- ☁️ AWS EC2  
+
+---
+
+## 🚀 CI/CD Workflow
+
+1️⃣  Code pushed to GitHub  
+2️⃣  GitHub Actions triggered  
+3️⃣  Docker image built  
+4️⃣  Image pushed to Docker Hub  
+5️⃣  EC2 deployment via SSH  
+6️⃣  Container auto started  
+
+---
+
+## 📦 Docker Image
+
+👉 Docker Hub:  
+https://hub.docker.com/r/gkclouddevops/gokul-nginx  
+
+---
+
+## 🌐 Deployment
+
+- Application deployed on AWS EC2  
+- Running inside Docker container  
+- Accessible via public IP  
+
+---
+
+## 📸 Output
+
+DevOps Engineer Gokul !!!
+This website is running inside a Docker Container.
+CI/CD AUTO DEPLOY SUCCESS
+
+---
+
+## 🔑 Key Learnings
+
+- CI/CD pipeline creation  
+- GitHub Actions automation  
+- Docker build & push workflow  
+- AWS EC2 deployment  
+- SSH-based remote execution  
+
+---
+
+## 📌 Future Improvements
+
+- Add version tagging (v1, v2)  
+- Zero downtime deployment  
+- Load balancer setup  
+- Monitoring integration (Prometheus / Grafana)  
+
+---
+
+## 🙌 Connect with Me
+
+📧 Email: kannangokul312@gmail.com  
+🔗 Linktree: https://linktr.ee/gk_cloud_devops  
+
+---
+
+⭐ If you like this project, give it a star!
