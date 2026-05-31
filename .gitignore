@@ -2,3 +2,10 @@
 *.tmp
 *.swp
 node_modules
+*.tfstate
+*.tfstate.backup
+.terraform/
+awscliv2.zip
+kubectl
+minikube-linux-amd64
+aws/
