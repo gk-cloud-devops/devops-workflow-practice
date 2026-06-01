@@ -1,0 +1,12 @@
+---
+- name: DevOps Automated Local Server Lab Verification
+  hosts: all
+  tasks:
+    - name: Generate an automated system welcome message asset
+      copy:
+        content: "Welcome, Gokula Kannan! This system configuration is successfully managed by Ansible Engine Automation."
+        dest: /home/gokul/Documents/devops-workflow-practice/ansible_success_report.txt
+
+    - name: Audit the file setup to verify creation status logs
+      debug:
+        msg: "Success! Ansible task verification loops executed flawlessly on your terminal."
