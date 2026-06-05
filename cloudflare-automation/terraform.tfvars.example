@@ -1,0 +1,3 @@
+# This is a template file. Replace dummy values with your actual tokens locally.
+cloudflare_api_token = "YOUR_CLOUDFLARE_API_TOKEN_HERE"
+cloudflare_zone_id   = "YOUR_ZONE_ID_HERE"
