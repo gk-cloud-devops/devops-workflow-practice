@@ -2,3 +2,15 @@
 *.tmp
 *.swp
 node_modules
+<<<<<<< Updated upstream
+=======
+*.tfstate
+*.tfstate.backup
+.terraform/
+awscliv2.zip
+kubectl
+minikube-linux-amd64
+aws/
+*.tfvars
+*.tfvars.json
+>>>>>>> Stashed changes
